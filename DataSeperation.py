@@ -70,7 +70,7 @@ def process_csv(file_path):
 
 
 
-file_path = r'C:\Python\Visualization Assignment\FieldDataAcquisition\Data\20250321_8279399076_MiFitness_hlth_center_fitness_data.csv'  # Replace with your actual file
+file_path = r'\Data\20250321_8279399076_MiFitness_hlth_center_fitness_data.csv'  # Replace with your actual file
 key_dataframes, sleep_items_df = process_csv(file_path)
 
 # Saving to separate CSV files

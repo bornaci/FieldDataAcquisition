@@ -1,4 +1,0 @@
-Uid,Sid,Time,UpdateTime,time,calories,bpm,spo2,steps,distance,end_time,start_time,avg_hr,avg_spo2,bedtime,breath_quality,sleep_deep_duration,device_bedtime,device_wake_up_time,sleep_light_duration,max_hr,max_spo2,min_hr,min_spo2,protoTime,sleep_rem_duration,duration,items,timezone,version,awake_count,sleep_awake_duration,wake_up_time,daily_high_intensity_vitality,daily_low_intensity_vitality,daily_medium_intensity_vitality,suggested_activity_duration,suggested_activity_type,date_time,latest_accumulated_vitality,current_day_train_load,current_train_load_level,wtl_sum,stress,weight
-8279399076,765279083,2025-02-21 14:44:00,2025-02-22 08:55:09,1740149040.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.0,
-8279399076,765279083,2025-02-14 14:12:00,2025-02-16 09:59:51,1739542320.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.0,
-8279399076,765279083,2025-02-14 00:51:00,2025-02-16 09:59:51,1739494260.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36.0,

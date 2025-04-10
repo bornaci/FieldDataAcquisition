@@ -13,7 +13,7 @@ font = {'weight' : 'bold',
 plt.rc('font', **font)
 
 # Load data
-df = pd.read_csv(r"C:\Users\schal\Downloads\combined_model_ready_all.csv")
+df = pd.read_csv("ModelReadyFiles/model_ready_all.csv")
 
 # Drop rows with missing key data
 df = df.dropna(subset=["sleep_quality", "total_steps", "total_screen_time"])
