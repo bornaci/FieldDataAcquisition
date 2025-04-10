@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-df = pd.read_csv("Data/combined_model_ready_all.csv")
+df = pd.read_csv(r"C:\Users\schal\Downloads\combined_model_ready_all.csv")
 df['sleep_quality_encoded'] = df['sleep_quality'].map({'Bad': 0, 'Average': 1, 'Good': 2})
 df['took_nap'] = df['took_nap'].astype(int)
 
@@ -102,6 +102,19 @@ print("\nClassification Report:")
 print(classification_report(y_test, y_test_pred))
 print("Confusion Matrix:")
 print(confusion_matrix(y_test, y_test_pred))
+cm = confusion_matrix(y_test, y_test_pred)
+print(cm)
+
+# Confusion matrix plot
+plt.figure(figsize=(6, 5))
+sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", 
+            xticklabels=['Bad', 'Average', 'Good'], 
+            yticklabels=['Bad', 'Average', 'Good'])
+plt.title("Confusion Matrix")
+plt.xlabel("Predicted Label")
+plt.ylabel("True Label")
+plt.tight_layout()
+plt.show()
 
 # Feature importance visualization
 importances = model.feature_importances_
